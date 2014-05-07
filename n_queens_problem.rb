@@ -55,8 +55,8 @@ class NQueensProblem
     cnt
   end
 
-  def to_s
-    queens.map(&:to_s).join(' ')
+  def self.number_symmetrically_unique_solutions(board_size)
+    # IMPLEMENT ME
   end
 
 end
