@@ -33,8 +33,7 @@ class NQueensProblem
   end
 
   def solve(&block)
-    avail = available_positions_on_next_row
-    avail.each do |q|
+    available_positions_on_next_row.each do |q|
       queens << q
       if solution?
         yield self
